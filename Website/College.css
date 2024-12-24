@@ -1,0 +1,1320 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  font-family: helvetica,Arial, Helvetica, sans-serif;
+}
+html{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.navup{
+  background-color: black;
+  color: white;
+  height: 20px;
+  display: flex;
+  width: 100%;
+}
+.navup img{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position:relative;
+  left: 1785px;
+}
+.navbar{
+  background-color:rgb(255, 255, 255);
+  position: relative;
+    color: aliceblue;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.nav11{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  width: 80%;
+  gap: 10px;
+  left:-50px;
+}
+.nav1{
+  height: 50px;
+  width:50px;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(21, 138, 221);
+  display: flex;
+  position: relative;
+}
+.nav1 p{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+}
+.nav2{
+  height: 50px;
+  width:50px;
+  background-color: rgb(255, 255, 255);
+  
+}
+.nav2 p{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  position: relative;
+  left: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav2 p:hover{
+  color: rgb(21, 138, 221);
+  transition: 0.2s;
+}
+.nav3{
+  height: 50px;
+  width:50px;
+  background-color: rgb(255, 255, 255);
+  
+}
+.nav3 p{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav3 p:hover{
+  color: rgb(21, 138, 221);
+  transition: 0.2s;
+}
+.nav4{
+  height: 50px;
+  width:50px;
+  background-color: rgb(255, 255, 255);
+  
+}
+.nav4 p{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav4 p:hover{
+  color: rgb(21, 138, 221);
+  transition: 0.2s;
+}
+.nav5{
+  height: 50px;
+  width:50px;
+  background-color: rgb(255, 255, 255);
+}
+.nav5 p{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav5 p:hover{
+  color: rgb(21, 138, 221);
+  transition: 0.2s;
+}
+.nav6{
+  height: 50px;
+  width:80px;
+  background-color: rgb(255, 255, 255);
+  
+}
+.nav6 p{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.nav6 p:hover{
+  color: rgb(21, 138, 221);
+  transition: 0.2s;
+}
+.nav7{
+  height: 50px;
+  width:50px;
+  background-color: rgb(255, 255, 255);
+  
+}
+.nav7 p{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.nav7 p:hover{
+  color: rgb(21, 138, 221);
+  transition: 0.2s;
+}
+.nav8{
+  height: 50px;
+  width:50px;
+  background-color: rgb(255, 255, 255); 
+}
+.nav8 p{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav8 p:hover{
+  color: rgb(21, 138, 221);
+  transition: 0.2s;
+}
+.nav9{
+  height: 50px;
+  width:50px;
+  background-color: rgb(255, 255, 255); 
+}
+.nav9 p{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav9 p:hover{
+  color: rgb(21, 138, 221);
+  transition: 0.2s;
+}
+.profile{
+  height: 30px;
+  width: 30px;
+}
+.profile i{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+}
+.profile i:hover{
+  color: rgb(21, 138, 221);
+}
+.profile i:active{
+  border: 10px;
+  border-color: rgb(21, 138, 221);
+}
+.popup{
+  background-color: brown;
+  height: 100px;
+  width: 366px;
+  position: relative;
+  left: 1092px;
+  visibility: hidden;
+}
+.open-popup{
+  visibility: visible;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  background-image: url("Playstation.png");
+  position: relative;
+  left: -70px;
+}
+.signin{ 
+  width: 100px;
+  height: 30px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+.signin button{
+  width: 80px;
+  height: 100%;
+  background-color: rgb(21, 138, 221);
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+.signin button:hover{
+  background-color: rgb(0, 52, 90);
+  transition: 0.2s;
+  transform: scale(1.1);
+  z-index: 3;
+}
+.magni{
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  width: 50px;
+}
+.magni i:hover{
+  color: rgb(21, 138, 221);
+}
+
+.maincontent{
+  height: 567.8px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.maincontent img{
+  background-color: rgb(255, 255, 255);
+  height:100%;
+  width: 99%;
+  position: relative;
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+.maincontentdown{
+  background-color: rgb(255, 255, 255);
+  enable-background: 23%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow-x: scroll;
+  gap: 30px;
+  margin: 10px;
+  height: 150px;
+}
+.content1,.content2,.content3,.content4,.content5{
+  height: 110px;
+  width: 200px;
+display:flex ;
+  
+}
+.content1 img,.content2 img,.content3 img,.content4 img,.content5 img {
+  border-radius: 10px;
+}
+.content1 img:hover,.content2 img:hover,.content3 img:hover,.content4 img:hover,.content5 img:hover{
+  transition: 0.4s;
+  transform: scale(1.1);
+  z-index: 3;
+}
+/* gamesup */
+.gameup{
+  height: 650px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  perspective-origin: 4cap;
+  display: flex;
+}
+.gameup1{
+  height: 650px;
+  width: 30%;
+  left: 75px;
+  font-size: 40px;
+  height: 202.5px;
+  width: 550.33px;
+  margin: 0px,0px,18px;
+  position: relative;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  top:100px;
+}
+.gameup1 h2{
+  font-weight: 2;
+  font-weight: lighter;
+}
+.pls1 {
+  position: relative;
+  top: 75px;
+}
+.pls1 h4{
+  font-weight:500;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(21, 138, 221);
+}
+.pls2{
+  top: 75px;
+  position: relative;
+}
+.pls2 h6{
+  top: 10px;
+  position: relative;
+  font-weight:500;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(31, 31, 31);
+}
+.pls11{
+  top:90px;
+  left: 20px;
+  position: relative;
+}
+#p23{
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: none;
+}
+#p24{
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 0, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: none;
+}
+#p23:hover{
+  border-color: black;
+  
+}
+.gameup2 {
+  height: 650px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+/**Game**/
+.Games{
+  background-color: rgb(19, 19, 19);
+  width: 100%;
+  height: 900px;
+}
+.gametext{
+  background-color: rgb(19, 19, 19);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 48.75px;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  font-size: 39px;
+  color: white;
+}
+.gamechange{
+  background-color: rgb(19, 19, 19);
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+.gamechange1{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 14px;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  height: 45px;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  position: relative;
+  width: 120.26px;
+  top: 2px;
+}
+.gamechange1 p{
+text-align: center;
+position: relative;
+font-weight: 400;
+top: 13px;
+}
+.gamechange2{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  height: 45px;
+  position: relative;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  right: 10px;
+  width: 120.26px;
+  top: 2px;
+}
+.gamechange2 p{
+  color: white;
+  text-align: center;
+  position: relative;
+  font-weight: 400;
+  top: 13px;
+  }
+.gamechange2 p:hover{
+  color: rgb(21, 138, 221);
+  transition: 0.4s;
+}
+.gamecontent11 a{
+  display: flex;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  top: -10px;
+}
+
+.gamecontent12 a{
+  display: flex;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  top: -10px;
+}
+.gamecontent13 a{
+  display: flex;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  top: -10px;
+}
+.gamecontent14 a{
+  display: flex;
+  background-color: rgb(19, 19, 19);
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  top: -10px;
+}
+.gamecontent15 a{
+  display: flex;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  top: -10px;
+}
+.gamecontent16 a{
+  display: flex;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  top: -10px;
+}
+
+
+.gamecontent1,.gamecontent2{
+  background-color: rgb(19, 19, 19);
+  position: relative;
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+  top: 150px;
+  height: 250px;
+}
+.gamecontent11,.gamecontent12,.gamecontent13,.gamecontent14,.gamecontent15,.gamecontent16{
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  top: 10px;
+}
+.gamecontent11 p,.gamecontent12 p,.gamecontent13 p,.gamecontent14 p,.gamecontent15 p,.gamecontent16 p{
+  color: white;
+  width: 200px;
+  height: 21px;
+  position: relative;
+  top: 203px;
+  right: 20px;
+}
+.gamecontent11 img:hover,.gamecontent12 img:hover,
+.gamecontent13 img:hover,.gamecontent14 img:hover,
+.gamecontent15 img:hover,.gamecontent16 img:hover{
+  transition: 0.15s;
+  transform: scale(1.1);
+  z-index: 3;
+  border-radius: 20px;
+}
+.gamecontent21,.gamecontent22,.gamecontent23,
+.gamecontent24,.gamecontent25,.gamecontent26{
+  background-color:rgb(19, 19, 19);
+  display: flex;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  top: 10px;
+}
+.gamecontent21 img:hover,.gamecontent22 img:hover,
+.gamecontent23 img:hover,.gamecontent24 img:hover,
+.gamecontent25 img:hover,.gamecontent26 img:hover{
+  transition: 0.15s;
+  transform: scale(1.1);
+  z-index: 3;
+  border-radius: 20px;
+}
+/**FOLLOW**/
+.follow{
+  background-color: rgb(255, 255, 255);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.follow1{
+  background-color: rgb(255, 255, 255);
+  width: 580px;
+  height: 46.89px;
+  position: relative;
+  top: -150px;
+}
+.follow1 p{
+  font-size: 40px;
+  text-align: center;
+}
+.follow2{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 50px;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: 90px;
+  left: 200px;
+}
+.follow21,.follow22,.follow23,.follow24{
+font-size: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.follow21 i:hover{
+  color: rgb(21, 138, 221);
+  transform: scale(1.1);
+  z-index: 3;
+  transition: 0.15s;
+}
+.follow22 i:hover{
+  color: rgb(192, 49, 236);
+  transform: scale(1.1);
+  z-index: 3;
+  transition: 0.15s;
+}
+.follow23 i:hover{
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  z-index: 3;
+  transition: 0.15s;
+}
+.follow24 i:hover{
+  color: rgb(255, 0, 0);
+  transform: scale(1.1);
+  z-index: 3;
+  transition: 0.15s;
+}
+.playstation{
+  background-color: rgb(0, 54, 162);
+  position: relative;
+  height: 700px;
+  width:100%;
+}
+.playstationicon{
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.playstation hr{
+  position: relative;
+  top: 1000px;
+}
+.playstationcontent{
+  background-color:rgb(0, 54, 162);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  gap: 80px;
+}
+.playstationcontent1,.playstationcontent2,.playstationcontent3,.playstationcontent4,.playstationcontent5,.playstationcontent6{
+  background-color: rgb(0, 54, 162);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 213.2px;
+  width: 150px;
+}
+.playstationcontent1 li,.playstationcontent2 li,.playstationcontent3 li,
+.playstationcontent4 li,.playstationcontent5 li,.playstationcontent6 li{
+  background-color: rgb(0, 54, 162);
+  color: white;
+}
+.icon{
+  color: rgb(0, 54, 162);
+  height: 30px;
+  justify-content: center;
+  align-items:center;
+  display:flex;
+  width: 120px;
+}
+.icon1,.icon2,.icon3,.icon4{
+  display: flex;
+  height: 30px;
+  width: 30px;
+}
+.playcontentdown{
+  background-color: aqua;
+  height: 300px;
+  width: 100%;
+}
+/**Login**/
+.background1{
+  background-color: rgb(132, 0, 255);
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background1 img{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 1539px;
+  height: 1000px;
+}
+.login1{
+  height: 695px;
+  width: 700px;
+  left: 100px;
+  position: relative;
+  top: -695px;
+}
+.n1{
+  position: relative;
+  color: white;
+  font-size: 30px;
+  left: 206px;
+  top: 150px;
+}
+.email{
+  position: relative;
+  border: none;
+  border-radius: 200px;
+  background-color: rgb(59, 59, 59);
+  padding: 5px;
+  color: white;
+  left: 238px;
+  top: 185px;
+  height: 38px;
+  width: 241px;
+}
+.Pass{
+  position: relative;
+  border: none;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  padding: 5px;
+  border-radius: 200px;
+  top: 244px;
+  left: -30px;
+  height: 38px;
+  width: 241px;
+}
+.Create{
+  position: relative;
+  background-color: rgb(59, 59, 59);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 200px;
+  color: white;
+  border: none;
+  height: 34px;
+  width: 339px;
+  top: 394px;
+  left: 194px;
+}
+.absony{
+  position: relative;
+  text-decoration: none;
+  color: rgb(21, 138, 221);
+  top: 345px;
+  left: -7px;
+
+  }
+.trsign{
+  position: relative;
+  text-decoration: none;
+  color: rgb(21, 138, 221);
+  top: 377px;
+  left: -155px;
+}
+.w1{
+  font-size: 30px;
+}
+.de1{
+  height: 100%;
+  width: 100%;
+}
+.Nexbu{
+  height: 33px;
+    width: 294px;
+    position: relative;
+    left: 212px;
+    top: 303px;
+}
+/* Rise Of Ronnie Page */
+.riseofronnie{
+  background-color: rgb(255, 255, 255);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+}
+.riseofronnielogo{
+  background-color: rgb(255, 255, 255);
+  height: 46px;
+  position: relative;
+  left: 18px;
+  display: flex;
+  justify-content: center;
+  width: 123.86px;
+}
+.riseofronnieimg{
+  display: flex;
+  justify-content: center;
+}
+.riseofronnie ul{
+  display: flex;
+  gap: 20px;
+  border: none;
+  list-style-type:none;
+  font-style: none;
+  position: relative;
+  left: 450px;
+}
+
+.riseofronnie button{
+  border: none;
+  border-radius: 200px;
+  background-color: rgb(255, 255, 255);
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 575;
+}
+.riseofronnie button:hover{
+  background-color: rgb(193, 193, 193);
+  transform:scale(1.1);
+  z-index: calc(3);
+  transition: 0.5s;
+}
+.riseofronniedw{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 650px;
+  width: 100%;
+}
+.riseofronniedw video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 644px;
+  width: 100%;
+}
+/* .riseofronniecontent1{
+  height: 100%;
+  position: relative;
+  left: 90px;
+  width: 644px;
+  background-color: transparent;
+}
+.riseofronniecontent1 h4 {
+  font-size: 50px;  
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+.riseofronniecontent1 sup{
+  color: white;
+  font-size: 30px;
+}
+.riseofronniecontent1 span{
+  font-size: 10px;
+  position: relative;
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.riseofronniecontent1 p{
+  display: flex;
+  border: 10px;
+  border-color: rebeccapurple;
+  font-size: 10px;
+  color: white;
+}
+.standard{
+  display: flex;
+  gap: 5px;
+  height: 30px;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.standard p{
+  border: 1px solid rgb(255, 255, 255);
+  padding: 2px;
+  font-weight: 700;
+}
+.rating{
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.rating p{
+  font-size: 20px;
+} */
+.riseofronniecontentdw{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width:100%;
+}
+.riseofronniecontentdw1,.riseofronniecontentdw2,.riseofronniecontentdw3,
+.riseofronniecontentdw4,.riseofronniecontentdw5,.riseofronniecontentdw6,.riseofronniecontentdw7{
+  background-color: black;
+  height: 180px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.riseofronniecontentdw1 img,.riseofronniecontentdw2 img,.riseofronniecontentdw3 img,
+.riseofronniecontentdw4 img,.riseofronniecontentdw5 img{
+  height: 180px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.riseofronniecontentdw1 img:hover,
+.riseofronniecontentdw2 img:hover,
+.riseofronniecontentdw3 img:hover,
+.riseofronniecontentdw4 img:hover,
+.riseofronniecontentdw5 img:hover {
+  transition: 0.15s;
+  transform: scale(1.1);
+  z-index: 3;
+}
+.whatrise{
+  height: 800px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.whatrise1{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+}
+.whatrise1 h5{
+  color: white;
+  position: relative;
+  top: 200px;
+}
+.whatrise1 h1{
+  color: white;
+  font-weight: 700;
+  position: relative;
+  top: 220px;
+}
+.whatrise2{
+  width: 50%;
+  position: relative;
+  perspective: 4cap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.whatrise2 blockquote{
+  position: relative;
+  background-color: 1;
+  color: rgb(240, 228, 207);
+  font-family: Arial, Helvetica, sans-serif;
+  top:200px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+/* Spider Man 2 */
+.spiderman2{
+  background-color: rgb(255, 255, 255);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+}
+.spiderman2logo{
+  background-color: rgb(255, 255, 255);
+  height: 46px;
+  position: relative;
+  left: 18px;
+  display: flex;
+  justify-content: center;
+  width: 123.86px;
+}
+.spiderman2img{
+  display: flex;
+  justify-content: center;
+}
+.spiderman2 ul{
+  display: flex;
+  gap: 20px;
+  border: none;
+  list-style-type:none;
+  font-style: none;
+  position: relative;
+  left: 450px;
+}
+
+.spiderman2 button{
+  border: none;
+  border-radius: 200px;
+  background-color: rgb(255, 255, 255);
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 575;
+}
+.spiderman2 button:hover{
+  background-color: rgb(193, 193, 193);
+  transform:scale(1.1);
+  z-index: calc(3);
+  transition: 0.5s;
+}
+.spiderman2dw{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 650px;
+  width: 100%;
+}
+.spiderman2dw video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 644px;
+  width: 100%;
+}
+/* .spiderman2content1{
+  height: 100%;
+  position: relative;
+  left: 90px;
+  width: 644px;
+  background-color: transparent;
+}
+.spiderman2content1 h4 {
+  font-size: 50px;  
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+.spiderman2content1 sup{
+  color: white;
+  font-size: 30px;
+}
+.spiderman2content1 span{
+  font-size: 10px;
+  position: relative;
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.spiderman2content1 p{
+  display: flex;
+  border: 10px;
+  border-color: rebeccapurple;
+  font-size: 10px;
+  color: white;
+}
+.standard{
+  display: flex;
+  gap: 5px;
+  height: 30px;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.standard p{
+  border: 1px solid rgb(255, 255, 255);
+  padding: 2px;
+  font-weight: 700;
+}
+.rating{
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.rating p{
+  font-size: 20px;
+} */
+.spiderman2contentdw{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width:100%;
+}
+.spiderman2contentdw1,.spiderman2contentdw2,.spiderman2contentdw3,
+.spiderman2contentdw4,.spiderman2contentdw5,.spiderman2contentdw6,.spiderman2contentdw7{
+  background-color: black;
+  height: 180px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spiderman2contentdw1 img,.spiderman2contentdw2 img,.spiderman2contentdw3 img,
+.spiderman2contentdw4 img,.spiderman2contentdw5 img{
+  height: 180px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spiderman2contentdw1 img:hover,
+.spiderman2contentdw2 img:hover,
+.spiderman2contentdw3 img:hover,
+.spiderman2contentdw4 img:hover,
+.spiderman2contentdw5 img:hover {
+  transition: 0.15s;
+  transform: scale(1.1);
+  z-index: 3;
+}
+.whatrise{
+  background-image: url("spiderman2-screenshot-riding-4K-en-28mar23.webp");
+  height: 703px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  opacity: 0.5 black ;
+}
+.whatrise1{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+}
+.whatrise1 h5{
+  color: white;
+  position: relative;
+  top: 200px;
+}
+.whatrise1 h1{
+  color: white;
+  font-weight: 700;
+  position: relative;
+  top: 220px;
+}
+.whatrise2{
+  width: 50%;
+  position: relative;
+  perspective: 4cap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.whatrise2 blockquote{
+  position: relative;
+  background-color: 1;
+  color: rgb(240, 228, 207);
+  font-family: Arial, Helvetica, sans-serif;
+  top:200px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+/*Tekken 8*/
+.tekken8 {
+  background-color: rgb(255, 255, 255);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+}
+.tekken8logo {
+  background-color: rgb(255, 255, 255);
+  height: 46px;
+  position: relative;
+  left: 18px;
+  display: flex;
+  justify-content: center;
+  width: 123.86px;
+}
+.tekken8img {
+  display: flex;
+  justify-content: center;
+}
+.tekken8 ul {
+  display: flex;
+  gap: 20px;
+  border: none;
+  list-style-type: none;
+  font-style: none;
+  position: relative;
+  left: 450px;
+}
+.tekken8 button {
+  border: none;
+  border-radius: 200px;
+  background-color: rgb(255, 255, 255);
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 575;
+}
+.tekken8 button:hover {
+  background-color: rgb(193, 193, 193);
+  transform: scale(1.1);
+  z-index: calc(3);
+  transition: 0.5s;
+}
+.tekken8dw {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 650px;
+  width: 100%;
+}
+.tekken8dw img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 644px;
+  width: 100%;
+}
+.tekken8contentdw {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 100%;
+}
+.tekken8contentdw1,
+.tekken8contentdw2,
+.tekken8contentdw3,
+.tekken8contentdw4,
+.tekken8contentdw5,
+.tekken8contentdw6,
+.tekken8contentdw7 {
+  background-color: black;
+  height: 180px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tekken8contentdw1 img,
+.tekken8contentdw2 img,
+.tekken8contentdw3 img,
+.tekken8contentdw4 img,
+.tekken8contentdw5 img {
+  height: 180px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tekken8contentdw1 img:hover,
+.tekken8contentdw2 img:hover,
+.tekken8contentdw3 img:hover,
+.tekken8contentdw4 img:hover,
+.tekken8contentdw5 img:hover {
+  transition: 0.15s;
+  transform: scale(1.1);
+  z-index: 3;
+}
+.whatrise {
+  background-image: url("tekken8-screenshot-riding-4K-en-28mar23.webp");
+  height: 703px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  opacity: 0.5 black;
+}
+.whatrise1 {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.whatrise1 h5 {
+  color: white;
+  position: relative;
+  top: 200px;
+}
+.whatrise1 h1 {
+  color: white;
+  font-weight: 700;
+  position: relative;
+  top: 220px;
+}
+.whatrise2 {
+  width: 50%;
+  position: relative;
+  perspective: 4cap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.whatrise2 blockquote {
+  position: relative;
+  background-color: 1;
+  color: rgb(240, 228, 207);
+  font-family: Arial, Helvetica, sans-serif;
+  top: 200px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}

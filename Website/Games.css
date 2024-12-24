@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+}
+header{
+    position: relative;
+    height: auto;
+}
+.Toxic{
+    font-size: 50px;
+    text-decoration: none;
+    background-color: transparent;
+    color: brown;
+    margin-right:150px;
+    font-family: Bradley Hand ITC;
+}
+.toxicright{
+    text-align:center;
+    background-color: transparent;
+    font-family:Arial Black;
+    margin: 30px;
+}
+div.upper{
+    width: inherit;
+}
+.upper{
+    text-decoration: none;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-align: right;
+    text-decoration: none;
+    position: relative;
+    background-color: transparent;
+    margin: 20px;
+    text-align: initial;
+}
+.lower{
+    height: 2000px;
+    width: 1000px;
+}
+.upperl{   
+    margin: 20px 20px 20px 20px;
+    height: 700px;
+    width: fit-content;
+    display: flex;
+    justify-content:center;
+}
+
+h5{
+    display:flex;
+}
+
+.yash{
+    background-color: aqua;
+    height: fit-content;
+    width: 200px;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+  }
+  
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin:  auto;
+    padding: 20px;
+  }
+  
+footer {
+    background-color: #333;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.footer-content p {
+    margin: 0;
+  }
+  
+.footer-content ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+.footer-content ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+.footer-content ul li:last-child {
+    margin-right: 0px;
+  }
+  
+.footer-content ul li a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+.mid-content table {
+    border-color: #000000;
+    border-radius: 1px;
+    background-color: #000000;
+    
+  }
+
+  
